@@ -1,3 +1,11 @@
 # FAKE-NEWS
 
-## First run the script createcsv.py then run the script NewsScraper (First LINKS = realllinks and label = REAL need to be argument) then we need to run again NewsScrapper file by letting LINKS = reallinks and label = REAL ) after that we need to run the file fix.py to fix the csv file and exploit it in our jupyter notebook
+## This repository is part of the first info-f422 project.
+The .py files allow us to generate articles taken from the internet in  a CSV format. The outgoing file is fakegen.csv
+
+In order to generate a new CSV file : 
+
+ - Run the createcsv.py script
+ - Run NewsScraper.py
+ - Run NewsScraper.py again but comment line 23-24 (in order to have fake article)
+ - Run fix.py to fix the csv file
